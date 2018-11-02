@@ -2,7 +2,7 @@ package apis
 
 import (
 	"fmt"
-	. "gin_demo_api/models"
+	. "github.com/Yq2/gin_demo_api/models"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
