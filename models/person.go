@@ -2,7 +2,7 @@ package models
 
 import (
 	"database/sql"
-	mysqlDb "gin_demo_api/database"
+	mysqlDb "github.com/Yq2/gin_demo_api/database"
 	"log"
 )
 

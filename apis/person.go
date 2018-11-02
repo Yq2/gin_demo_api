@@ -3,7 +3,7 @@ package apis
 import (
 	"fmt"
 	. "gin_demo_api/models"
-	"gopkg.in/gin-gonic/gin.v1"
+	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
 	"strconv"
@@ -11,7 +11,7 @@ import (
 
 func IndexApi(c *gin.Context) {
 	c.String(http.StatusOK,
-		"Gin web 演示demo\n API列表 \n GET /persons 获取用户列表 \n POST /person  提交用户form {first_name:'YANG',last_name:'QIANG'} \n GET /person/:id 获取指定用户 \n PUT /person/:id 更新用户资料 \n DELETE /person/:id 删除指定用户 \n\n 作者github.com/Yq2")
+		"Gin web 演示demo\n\n API列表 \n GET /persons 获取用户列表 \n POST /person  提交用户form {first_name:'YANG',last_name:'QIANG'} \n GET /person/:id 获取指定用户 \n PUT /person/:id 更新用户资料 \n DELETE /person/:id 删除指定用户 \n...\n 作者:github.com/Yq2")
 }
 
 func AddPersonApi(c *gin.Context) {

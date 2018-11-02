@@ -1,8 +1,8 @@
 package main
 
 import (
-	db "gin_demo_api/database"
-	route_handler "gin_demo_api/router"
+	db "github.com/Yq2/gin_demo_api/database"
+	route_handler "github.com/Yq2/gin_demo_api/router"
 )
 
 func main() {
